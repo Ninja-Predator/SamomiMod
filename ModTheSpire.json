@@ -1,0 +1,11 @@
+{
+  "modid": "Samomi",
+  "name": "Samomi Mod",
+  "author_list": ["栗子沙冰"],
+  "description": "纸真的不适合做吸管。微博:https://weibo.com/apiww",
+  "version": "0.0.1",
+  "sts_version": "01-21-2020",
+  "mts_version": "3.15.0",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}
