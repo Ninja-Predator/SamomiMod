@@ -14,7 +14,7 @@
         <SlayTheSpire.version>12-22-2020</SlayTheSpire.version>
         <ModTheSpire.version>3.23.2</ModTheSpire.version>
         <!--CHANGE THIS TO YOUR STEAM INSTALLATION-->
-        <Steam.path>D:\Program Files\Steam\steamapps</Steam.path>
+        <Steam.path>F:\SteamLibrary\steamapps</Steam.path>
     </properties>
 
     <dependencies>
@@ -51,7 +51,7 @@
             <!--<systemPath>${basedir}/../lib/StSLib.jar</systemPath>-->
         </dependency>
     </dependencies>
-
+<!--
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
@@ -74,7 +74,7 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <!-- This moves your mod into a common folder where all mods you make can go. -->
+                                &lt;!&ndash; This moves your mod into a common folder where all mods you make can go. &ndash;&gt;
                                 <copy file="target/${project.artifactId}.jar" tofile="${Steam.path}/common/SlayTheSpire/mods/${project.artifactId}.jar"/>
                             </target>
                         </configuration>
@@ -86,24 +86,5 @@
             </plugin>
         </plugins>
 
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>false</filtering>
-                <excludes>
-                    <exclude>ModTheSpire.json</exclude>
-                </excludes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-                <includes>
-                    <include>ModTheSpire.json</include>
-                </includes>
-            </resource>
-        </resources>
-    </build>
+    </build>-->
 </project>
